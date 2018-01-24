@@ -2,10 +2,12 @@ package com.droidmarvin.spitfire;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
@@ -36,6 +38,23 @@ public class SpitFire extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         userId = mAuth.getCurrentUser().getUid();
+
+        mSpace = FirebaseDatabase.getInstance().getReference().child("Users").child("Renting").child(userId);
+       // mSpace = FirebaseDatabase.getInstance().getReference().child("Users").child("Renting").child("SoE").child("Slot");
+
+        mSpit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Spit
+            }
+        });
+
+        mFire.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Fire
+            }
+        });
 
     }
 }
