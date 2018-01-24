@@ -57,4 +57,9 @@ public class SpitFire extends AppCompatActivity {
         });
 
     }
+
+    //spit into firebase
+    private void spit(){
+
+    }
 }
