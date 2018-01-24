@@ -46,6 +46,7 @@ public class SpitFire extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Spit
+                spit();
             }
         });
 
@@ -53,6 +54,7 @@ public class SpitFire extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Fire
+                blackhole();
             }
         });
 
@@ -63,8 +65,8 @@ public class SpitFire extends AppCompatActivity {
 
     }
 
-    //fire into firebase
-    private void fire(){
+    //move to blackhole
+    private void blackhole(){
 
     }
 }
