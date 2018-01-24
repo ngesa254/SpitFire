@@ -58,7 +58,7 @@ tools:context="com.droidmarvin.spitfire.SpitFire">
     android:layout_height="wrap_content">
 
     <Button
-        android:id="@+id/btnSignIn"
+        android:id="@+id/btnSpit"
         android:background="@drawable/btn_sign_in_background"
         android:textColor="@android:color/white"
         android:text="SPIT"
@@ -68,7 +68,7 @@ tools:context="com.droidmarvin.spitfire.SpitFire">
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnFire"
         android:background="@drawable/btn_register_background"
         android:textColor="@color/btnRegister"
         android:text="FIRE"
