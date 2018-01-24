@@ -62,4 +62,9 @@ public class SpitFire extends AppCompatActivity {
     private void spit(){
 
     }
+
+    //fire into firebase
+    private void fire(){
+
+    }
 }
